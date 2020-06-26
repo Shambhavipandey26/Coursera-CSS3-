@@ -1,0 +1,141 @@
+body{
+  padding: 8px;
+  margin: 1%;
+}
+header{
+  background-image: url("../images/flywheel.jpg");
+	background-size:100%;
+	padding:40px;
+}
+h1 {
+	text-align: center;
+  color: #FFFFFF;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+nav a{
+  display: inline-block;
+	background:	#f4f4f4;
+	width:10%;
+	border-radius:5px;
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
+	font-size:100%;
+
+	padding:20px;
+	margin:40px;
+
+}
+a:hover{
+	background: #FFFFFF;
+	color: blue;
+
+}
+
+nav{
+	text-align:center;
+}
+
+img{
+  display:block;
+  border:solid #000000;
+  margin:10%;
+  height:30%;
+  width:60%;
+  float:top;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left{
+  background-color:#937d14;
+  position: relative;
+  display:inline-block;
+  float:left;
+  width:20%;
+  height:140%;
+
+}
+.right{
+  background-color:#ffffff;
+  display:inline-block;
+  float:left;
+  width:80%;
+  height:80%;
+
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 2px;
+	background-color: #f5eaea;
+	margin-left: 330px;
+
+
+  	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	overflow: auto;
+	font-weight: bold;
+	line-height: 100%;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px 25px 25px 25px;
+  margin-bottom: 20px;
+
+
+
+}
+tr {
+  border-spacing: 0;
+  border: 4px;
+	opacity:0.8;
+}
+th,td {
+  border: 2px solid #7fcd91;
+  padding: 10px 15px;
+}
+tr:hover{
+	opacity: 1;
+}
+tr:first-child>th{
+	    border-bottom: 3px solid #7fcd91;
+}
+td:nth-child(1) {text-align:left;}
+tr:nth-child(1) {text-align:left;}
+
+
+
+ tr:first-child{
+	-webkit-  background-image: linear-gradient(rgb(255,240,245), rgb(0,100,0));
+	-moz-  background-image: linear-gradient(rgb(255,240,245), rgb(0,100,0));
+	-o-  background-image: linear-gradient(rgb(255,240,245), rgb(0,100,0));
+  background-image: linear-gradient(rgb(255,240,245), rgb(0,100,0));
+	color: #0f4c75;
+}
+tr:first-child>th:first-child{
+	-webkit-border-radius: 20px 0 0 0;
+	border-radius: 20px 0 0 0;
+}
+tr:first-child>th:last-child{
+	-webkit-border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 0;
+}
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+}
+tr:hover{
+	opacity: 1;
+}
+th:hover{
+  color:#f4eec7;
+}
+td:hover{
+  color:#1d4d4f;
+}
